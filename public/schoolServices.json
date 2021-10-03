@@ -1,0 +1,82 @@
+ [
+  {
+    "srvId": 2021001,
+    "srvThumb": "https://cdn.cdnparenting.com/articles/2018/07/712919656-H.jpg",
+    "srvTitle": "Kid's English",
+    "srvPrice": 100,
+    "srvDuration": 2,
+    "srvPlaces": 100
+  },
+  {
+    "srvId": 2021002,
+    "srvThumb": "https://previews.123rf.com/images/racorn/racorn1308/racorn130804220/21279257-conceptual-portrait-of-female-student-learning-an-english-vocabulary.jpg",
+    "srvTitle": "Vocab Build",
+    "srvPrice": 150,
+    "srvDuration": 1,
+    "srvPlaces": 300
+  },
+  {
+    "srvId": 2021003,
+    "srvThumb": "https://www.spokenenglishpractice.com/wp-content/uploads/2017/11/Spoken-English-skills.jpg",
+    "srvTitle": "Spoken English",
+    "srvPrice": 90,
+    "srvDuration": 2,
+    "srvPlaces": 120
+  },
+  {
+    "srvId": 2021004,
+    "srvThumb": "https://lh3.googleusercontent.com/proxy/4cx8nhxk4T-XgSl0umEfpl6w_rfYDrj0ram56i3l-ItLWknEIX4lG-Oo-BWilljASQ2y9d7nmI2aH_rcPP4QQtfZtidOChVdvKuy7hx5uIjUDIHm1dE8q95yfgLcLDy7PS2TeA",
+    "srvTitle": "Native English",
+    "srvPrice": 180,
+    "srvDuration": 4,
+    "srvPlaces": 200
+  },
+  {
+    "srvId": 2021005,
+    "srvThumb": "https://st2.depositphotos.com/1018611/11768/i/950/depositphotos_117688418-stock-photo-students-studying-german-at-class.jpg",
+    "srvTitle": "Deutsch",
+    "srvPrice": 200,
+    "srvDuration": 2,
+    "srvPlaces": 60
+  },
+  {
+    "srvId": 2021006,
+    "srvThumb": "https://www.crushpixel.com/big-static10/preview4/teenage-student-gossip-606272.jpg",
+    "srvTitle": "Deutsch Gossip Club",
+    "srvPrice": 190,
+    "srvDuration": 1,
+    "srvPlaces": 150
+  },
+  {
+    "srvId": 2021007,
+    "srvThumb": "https://certa-medical.com/wp-content/uploads/2020/01/Certa-Medical-Certa-Academy-Image-2.jpg",
+    "srvTitle": "Deutsch Writing",
+    "srvPrice": 200,
+    "srvDuration": 1.5,
+    "srvPlaces": 30
+  },
+  {
+    "srvId": 2021008,
+    "srvThumb": "https://www.theteflacademy.com/blog/wp-content/uploads/2020/08/STUDENT-TALK-TIME-IN-THE-CLASSROOM-.jpg",
+    "srvTitle": "Korean Talk",
+    "srvPrice": 100,
+    "srvDuration": 1,
+    "srvPlaces": 50
+  },
+  {
+    "srvId": 2021009,
+    "srvThumb": "https://media.edutopia.org/styles/responsive_2880px_16x9/s3/masters/2018-07/shutterstock_261553724_master.jpg",
+    "srvTitle": "Library",
+    "srvPrice": 30,
+    "srvDuration": 2,
+    "srvPlaces": 1000
+  },
+  {
+    "srvId": 2021010,
+    "srvThumb": "https://www.kerntraining.com/fileadmin/user_upload/Images_Allgemein/Slider_TR/Trainingsformen_Feriensprachkurs.jpg",
+    "srvTitle": "Language Research and Development",
+    "srvPrice": 500,
+    "srvDuration": 5,
+    "srvPlaces": 10
+  }
+]
