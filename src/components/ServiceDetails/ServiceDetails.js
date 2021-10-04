@@ -10,9 +10,9 @@ const ServiceDetails = (props) => {
         <tr>
             <td><img className="table-img" src={srvThumb} alt="" /></td>
             <td>{srvTitle}</td>
-            <td>{srvPrice}</td>
+            <td>${srvPrice}</td>
             <td>{srvPlaces}</td>
-            <td>{srvDuration}</td>
+            <td>{srvDuration} years</td>
             <td><Button>Apply</Button></td>
         </tr>
     );

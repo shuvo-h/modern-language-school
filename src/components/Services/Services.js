@@ -12,12 +12,12 @@ const Services = () => {
             <Table striped bordered hover size="sm" className="text-center">
                 <thead>
                     <tr>
-                    <th>Course Banner</th>
-                    <th>Course Name</th>
-                    <th>Course Fees</th>
-                    <th>Total Seat</th>
-                    <th>Course Duration</th>
-                    <th>Enroll Now</th>
+                    <th className="p-3">Course Banner</th>
+                    <th className="p-3">Course Name</th>
+                    <th className="p-3">Course Fees</th>
+                    <th className="p-3">Total Seat</th>
+                    <th className="p-3">Course Duration</th>
+                    <th className="p-3">Enroll Now</th>
                     </tr>
                 </thead>
                 <tbody>
