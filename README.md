@@ -1,5 +1,5 @@
 
-![logo]("./src/images/logo.png")
+![logo](./src/images/logo.png)
 
     
 # Institute of Modern Language School
