@@ -1,16 +1,19 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
+import './serviceDetails.css';
 
 const ServiceDetails = (props) => {
     const {srvTitle, srvDuration, srvPlaces, srvPrice, srvThumb} = props?.serviceDetails || {};
     
     return (
-        <div>
-            <h1>{srvTitle}</h1>
-            <h4>Course fees: ${srvPrice}</h4>
-            <p>Duration: {srvDuration}</p>
-            <p>Total students: {srvPlaces}</p>
-            <img src={srvThumb} alt="" />
-        </div>
+        <tr>
+            <td><img className="table-img" src={srvThumb} alt="" /></td>
+            <td>{srvTitle}</td>
+            <td>{srvPrice}</td>
+            <td>{srvPlaces}</td>
+            <td>{srvDuration}</td>
+            <td><Button>Apply</Button></td>
+        </tr>
     );
 };
 

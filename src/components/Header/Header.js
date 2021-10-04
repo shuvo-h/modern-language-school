@@ -6,7 +6,7 @@ import './header.css';
 const Header = () => {
     return (
         <header>
-            <Navbar bg="dark" variant={"dark"} expand="lg">
+            <Navbar fixed="top" bg="dark" variant={"dark"} expand="lg">
                 <Container>
                     <Navbar.Brand as={Link} to={"/home"}>Modern Lang</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,8 +20,9 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+                
+            <h1 className="title p-2 rounded">Institute of Modern Language School</h1>
             
-            <h1>Institute of Modern Language School</h1>
         </header>
     );
 };

@@ -1,6 +1,14 @@
 header{
     background-image: url('../../images/banner.jpg');
-    background-size: cover;
+    background-size: 100% 360px;
     background-repeat: no-repeat;
-    height: 25vh;
+    height: 360px;
+}
+.title{
+    margin-top: 250px;
+    background-color: rgba(144, 238, 144, 0.486);
+    display: inline-block;
+    margin-left: 5vw;
+    font-size: 50px;
+    color: blue;
 }
