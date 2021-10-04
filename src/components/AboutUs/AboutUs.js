@@ -7,6 +7,7 @@ const AboutUs = () => {
         <section className="container my-4">
             <div className='row'>
                 <div className='col-7'>
+                    {/* Text about the institute  */}
                     <h2>About the Institute</h2>
                     <p>
                         Welcome to <strong>Institute of Modern Language School</strong>, your best choice to learn a language. We're dedicated to giving you the very best service, with a focus on regular practice with our tallented Teachers. <br />
@@ -20,10 +21,12 @@ const AboutUs = () => {
                         Dhaka, Bangladesh
                     </p>
                 </div>
+                {/* picture of the school  */}
                 <div className="col-5">
                     <img className='img-fluid' src={instituteImg} alt="" />
                 </div>
-                    
+
+                {/* Contact form      */}
                 <div  className='col-md-6'>
                     <h3>Contact us</h3>
                     <Form>
@@ -56,7 +59,6 @@ const AboutUs = () => {
                     </Form>
                 </div>
             </div>
-            
         </section>
     );
 };

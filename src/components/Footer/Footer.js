@@ -7,12 +7,14 @@ const Footer = () => {
     return (
         <div className="bg-dark text-light p-5" >
             <div className="row">
+                {/* footer nav  */}
                 <div className="col-md-4 col-sm-1 text-center ">
                     <Link className="text-decoration-none" to="/Home"><strong>Home</strong></Link><br />
                     <Link className="text-decoration-none" to="/services"><strong>Services</strong></Link><br />
                     <Link className="text-decoration-none" to="/alumni"><strong>Alumni</strong></Link><br />
                     <Link className="text-decoration-none" to="/about"><strong>About us</strong></Link>
                 </div>
+                {/* social media link  */}
                 <div className="col-md-4 col-sm-1 text-center">
                     <Link to="*"><BsFacebook size={50} className="text-primary m-2 "></BsFacebook></Link>
                     <Link to="*">
@@ -20,8 +22,8 @@ const Footer = () => {
                     <Link to="*">
                     <BsTwitter size={50} className="text-primary m-2"></BsTwitter></Link>
                 </div>
+                {/* school's address  */}
                 <div className="col-md-4 col-sm-1 text-end">
-
                     <p>
                         <strong>Institute of Modern Language School</strong> <br />
                         2059 White Oak Drive, <br /> 

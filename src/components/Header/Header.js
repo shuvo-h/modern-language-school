@@ -7,6 +7,7 @@ import logo from '../../images/logo.png';
 const Header = () => {
     return (
         <header>
+            {/* navbar start  */}
             <Navbar fixed="top" bg="dark" variant={"dark"} expand="lg">
                 <Container>
                     <Navbar.Brand as={Link} to={"/home"}> <img className="header-logo" src={logo} alt="" /> </Navbar.Brand>
@@ -21,7 +22,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-                
+                {/* School name  */}
             <h1 className="title p-2 rounded">Institute of Modern Language School</h1>
             
         </header>

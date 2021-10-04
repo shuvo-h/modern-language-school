@@ -6,6 +6,7 @@ const ServiceDetails = (props) => {
     const {srvTitle, srvDuration, srvPlaces, srvPrice, srvThumb} = props?.serviceDetails || {};
     
     return (
+        // service details
         <tr>
             <td><img className="table-img" src={srvThumb} alt="" /></td>
             <td>{srvTitle}</td>

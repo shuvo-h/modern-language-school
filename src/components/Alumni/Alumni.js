@@ -4,8 +4,8 @@ import ExStudent from '../ExStudent/ExStudent';
 
 const Alumni = () => {
     const allAlumni = useLoadData('/alumni.json');
-    console.log(allAlumni);
     return (
+        // EX-student section start 
         <section className="container my-5">
             <div className="row g-4">
                 {

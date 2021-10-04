@@ -1,6 +1,7 @@
 import React from 'react';
 import './service.css';
 import { Card, Button, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const Service = (props) => {
     const{srvTitle, srvThumb, srvPrice} = props.service || {};
@@ -13,7 +14,7 @@ const Service = (props) => {
                 <Card.Text>Course Fees: <strong>${srvPrice}</strong></Card.Text>
             </Card.Body>
             <Card.Footer>
-                <Button>Enroll Now</Button>
+                <Link to="/enroll"><Button>Enroll Now</Button></Link>
             </Card.Footer>
         </Card>
         </Col>

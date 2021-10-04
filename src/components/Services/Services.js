@@ -6,8 +6,9 @@ import ServiceDetails from '../ServiceDetails/ServiceDetails';
 const Services = () => {
     const allServices = useLoadData('/schoolServices.json');
     return (
+        // course details 
         <section className="container my-5">
-            <h3 className="text-center text-success">Total {allServices.length} Courses</h3>
+            <h3 className="text-center text-success">Our Service Total {allServices.length} Courses</h3>
             <Table striped bordered hover size="sm" className="text-center">
                 <thead>
                     <tr>

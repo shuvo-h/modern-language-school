@@ -3,6 +3,7 @@ import './exStudent.css';
 const ExStudent = (props) => {
     const {name, avater, email, phone, address, year} = props.exStudent || {};
     return (
+        // details of ex-student 
         <div className="col-3">
             <div className="mx-1 p-3 shadow">
                 <img className="ex-student-img rounded-circle d-block mx-auto" src={avater} alt="" />
