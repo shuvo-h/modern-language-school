@@ -2,13 +2,14 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './header.css';
+import logo from '../../images/logo.png';
 
 const Header = () => {
     return (
         <header>
             <Navbar fixed="top" bg="dark" variant={"dark"} expand="lg">
                 <Container>
-                    <Navbar.Brand as={Link} to={"/home"}>Modern Lang</Navbar.Brand>
+                    <Navbar.Brand as={Link} to={"/home"}> <img className="header-logo" src={logo} alt="" /> </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">

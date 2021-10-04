@@ -4,6 +4,9 @@ header{
     background-repeat: no-repeat;
     height: 360px;
 }
+.header-logo{
+    width: 2rem;
+}
 .title{
     margin-top: 250px;
     background-color: rgba(144, 238, 144, 0.486);
