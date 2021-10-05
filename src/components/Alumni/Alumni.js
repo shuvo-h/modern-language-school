@@ -7,6 +7,7 @@ const Alumni = () => {
     return (
         // EX-student section start 
         <section className="container my-5">
+            <h1 className="text-center mb-5">Our Ex-Students</h1>
             <div className="row g-4">
                 {
                     allAlumni.map(exStudent => <ExStudent exStudent={exStudent} key={exStudent.id}></ExStudent> )
