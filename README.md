@@ -11,10 +11,11 @@ Institute of Modern Language School is a privet language school. This institute 
 
 
   
-## Documentation
+## Project Features
 
-- [Services]()
-- [Alumni data]()
+- Developed by ReactJS as a teaching based website.
+- Dynamic routing was created to track the students and alumni.
+- Used Bootstrap CSS framework to design the frontend
 
   
 ## Authors
